@@ -1,0 +1,408 @@
+*{
+box-sizing: border-box;
+}
+
+body {
+    padding-top: 160px;
+    background-color: #ffffff;
+}
+
+.header {
+    position: fixed;
+    width: 100%; 
+    top: 0;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1280px;
+    font-family: sans-serif, helvetica;
+}
+
+.container {
+    background-image: url(pic/headerbackground.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.search {
+position:relative;
+width: 100%;
+max-width: 150px;
+margin-right: 5px;
+}
+
+.search__form{
+    display:inline-block;
+}
+
+.search__input{
+width: 100%;
+}
+ 
+.search__button {
+border:none; 
+position: absolute;
+right: 4px;
+top: 3px;
+padding: 0;
+background-color:rgba(255, 255, 255, 0.5);
+}
+
+
+.nav {
+ margin-top: 50px;
+ padding: 10px 0;
+ text-align:right;
+ background-color: #E6EDf5;
+ width: 100%;
+}
+
+.nav__button{
+    text-decoration:none;
+    color: rgb(83, 83, 83);
+    font-weight: 600;
+    margin: 0 2px;
+    padding: 9px;
+}
+
+.nav a:hover {
+    background-color: #ddd;
+    color: black;
+    transition: 0.5s;
+  }
+
+
+/* section /////*/
+
+.firstcontainer{
+    position: static;
+    max-width: 1280px;
+    width: 100%;
+    height: 336px;
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: auto;
+    right: 0;
+    left: 0;
+    background-image: url(pic/bgimghero.jpg);
+}
+
+
+.textcolor {
+    margin-left: 25px;
+    margin-top: 30px;
+    color: #000000;
+    font-weight: bold;
+    font-style:normal;
+    font-size: large;
+    background-color: rgba(255, 255, 255, 0.486);
+    padding-left: 5px;
+ 
+}
+
+.buttonbox{
+    margin-bottom: 30px;
+    padding: 14px;
+}
+
+  .hero__button1{
+    background-color: #E6EDf5;
+    padding: 10px 25px;
+    margin-left: 15px;
+    text-decoration: none;
+    color: rgb(83, 83, 83);
+    font-weight: bold;
+  }
+  .hero__button2{
+    background-color: #417fc5;
+    padding: 10px 25px;
+    margin-left: 15px;
+    text-decoration: none;
+    color: rgb(61, 58, 58);
+    font-weight: bold;
+  }
+
+  .hero__button:first-child{
+    margin-left: 0;
+  }
+  
+  .hero a:hover {
+    background-color: #ddd;
+    color: black;
+    transition: 0.5s;
+  
+  }
+
+  .section1img {
+    text-align: right;
+    margin-top: 15px;
+    margin-right: 50px;
+    max-width: 100%;
+    max-height: 100%;
+    
+  }
+
+/* section 2 */
+
+.secondcontainer {
+    position: static;
+    background-color: #ffffff;
+    width: 1280px;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    right: 0;
+    left: 0;
+    border: 1px solid #5f5d5d;
+    padding: 15px;
+}
+
+.hero2 {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.lasit__vairak {
+    text-align: right;
+}
+
+.gerbonisbox_img {
+text-align: center;
+border-style: groove;
+}
+
+/*section 3 */
+
+.reklama {
+    position: static;
+background-color: #1cbe0e;
+background-repeat: no-repeat;
+height: 220px;
+width: 100%;
+margin-top: 20px;
+
+}
+
+.container3 {
+    position: static;
+    max-width: 1280px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-style: groove;
+    height: 220px;
+}
+
+.virsraksts{
+    padding-top: 25px;
+}
+
+.buttonbox3{
+    padding: 15px;
+}
+
+.button1__3{
+background-color: #E6EDf5;
+padding: 15px 100px;
+text-decoration: none;
+color: rgb(83, 83, 83);
+font-weight: bold;
+margin-right: 30px;
+
+}
+
+.button2__3{
+    background-color: #417fc5;
+    padding: 15px 100px;
+    text-decoration: none;
+    color: rgb(61, 58, 58);
+    font-weight: bold;
+
+}
+
+.container3 a:hover{
+    background-color: #ddd;
+    color: black;
+    transition: 0.5s;
+}
+
+/* section 4 */
+
+.container4 {
+    margin-top: 20px;
+max-width: 1280px;
+width: 100%;
+height: 700px;
+left: 0;
+right: 0;
+margin-left: auto;
+margin-right: auto;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.rowsection4 {
+ 
+   image-resolution: 1280px;
+    position: relative;
+    max-width: 1280px;
+    width: 100%;
+    height: 690px;
+
+}
+
+.left {
+position: absolute;
+left: 0px;
+top: calc(50% - 15px);
+font-size: 35px;
+font-weight: bold;
+line-height: 1;
+
+}
+
+.right {
+position: absolute;
+right: 19px;
+width: 31px;
+top:  calc(50% - 15px);
+font-size: 35px;
+font-weight: bold;
+line-height: 1;
+
+}
+
+.right:hover,
+.left:hover {
+color: rgba(78, 75, 75, 0.733);
+transition: 0.2s;
+cursor: pointer;
+
+}
+
+.sliderbox {
+position: absolute;
+bottom: 0px;
+width: 100%;
+text-align: center;
+
+
+
+}
+
+.sliderdots {
+    border-radius: 50%;
+    display: inline-block;
+
+    border: 2px solid #0077ff ;
+    width: 20px;
+    height: 20px;
+
+}
+.sliderdots.active {
+    border-radius: 50%;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #0077ff ;
+    cursor: pointer;
+
+}
+
+.sliderdots:hover, .sliderdot.active {
+    background-color:#0077ff ;
+    cursor: pointer;
+    transition: background-color 0.2s;
+} 
+
+/* section 5 */
+
+.container5 {
+    margin-top: 20px;
+    max-width: 1280px;
+    width: 100%;
+    background-color:#ffffff ;
+    height: 400px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display:flex;
+    border: 1px solid #5f5d5d;
+
+
+    }
+
+.rowcontainer5 {
+    position:relative;
+    padding: 15px;
+
+    
+
+
+    
+}
+
+.content5 {
+    border: 1px solid #5f5d5d;
+    width: 90%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.content5 th, .content5 td {
+    padding: 15px;
+}
+
+.footer {
+    margin-top: 20px;
+    max-width: 1280px;
+    width: 100%;
+    background-color:#b6dd83 ;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+   
+
+}
+
+.footer2 {
+    text-align: left;
+
+}
+
+.copyrights {
+    margin-top: -7px;
+    background-color: #6f8553;
+    padding: 15px;
+}
+
+/* JS ///*/
+
+.image {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+
+.js-left:hover {
+    background-color: rgba(97, 95, 95, 0.5);
+    transition: 0.5s;
+}
+
+
+.js-right:hover {
+    background-color: rgba(97, 95, 95, 0.5);
+    transition: 0.5s;
+}
